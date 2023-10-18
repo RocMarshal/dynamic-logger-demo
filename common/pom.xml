@@ -1,25 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>roc.study</groupId>
+        <artifactId>dynamic-logger-demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>roc.study</groupId>
-    <artifactId>dynamic-logger-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <artifactId>common</artifactId>
+    <packaging>jar</packaging>
 
-    <name>dynamic-logger-demo</name>
+    <name>common</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>common</module>
-        <module>slf4j-demo</module>
-        <!--<module>commons-logging-demo</module>-->
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <log4j.version>2.17.1</log4j.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>

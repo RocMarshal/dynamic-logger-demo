@@ -1,6 +1,6 @@
 # Overview
 
-This repo contains six couples of logging usage demo to show how to update logger level dynamically.
+This repo contains some couples of logging usage demo to show how to update logger level dynamically.
 
 # References
 

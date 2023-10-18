@@ -39,3 +39,4 @@ build/
 
 **/target
 .idea
+**/dependency-reduced-pom.xml
